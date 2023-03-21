@@ -4,8 +4,13 @@ A script to easily generate modified versions of bootstrap using just a simple s
 ## Installation
 Simply clone or download this repo. Further dependencies are:
 
-NPM and the packages sass, postcss, postcss-cli, autoprefixer and clean-css-cli  
-(`npm install sass postcss postcss-cli autoprefixer clean-css-cli`)
+- npm and the packages sass, postcss, postcss-cli, autoprefixer and clean-css-cli  
+  ```
+  npm install sass postcss postcss-cli autoprefixer clean-css-cli
+  ```
+- curl
+- wget
+- unzip
 
 Alternatively, you can use the docker script to avoid having to install NPM and these packages on your system. 
 In that case the only dependency is docker itself.
