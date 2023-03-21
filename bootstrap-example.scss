@@ -1,0 +1,23 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+$purple:                    #363680;
+$primary:                   $purple;
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+$primary-text:                  $purple-600;
+$primary-bg-subtle:             $purple-100;
+$primary-border-subtle:         $purple-200;
+$primary-text-dark:             $purple-300;
+$primary-bg-subtle-dark:        $purple-900;
+$primary-border-subtle-dark:    $purple-700;
+$link-color-dark:               $purple-300;
+$link-hover-color-dark:         $purple-200;
+
+// 5. Include remainder of required parts
+@import "bootstrap/scss/bootstrap";
